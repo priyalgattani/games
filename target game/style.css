@@ -1,0 +1,57 @@
+body {
+    background: linear-gradient(to bottom, #3498db, #2980b9);
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.target {
+    width: 100px;
+    height: 100px;
+    background-color: #e74c3c; /* Red color for the target */
+    border-radius: 50%;
+    cursor: pointer;
+    position: absolute;
+    animation: moveTarget 2s ease-in-out infinite;
+}
+
+@keyframes moveTarget {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+p {
+    font-size: 20px;
+    color: #fff;
+}
+
+#score, #time-left {
+    font-size: 30px;
+    font-weight: bold;
+    color: #f1c40f; /* Yellow color for the score and time */
+}
+
+button {
+    background-color: #f1c40f;
+    border: none;
+    color: #000;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+}

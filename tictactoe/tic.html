@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tic-Tac-Toe</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Tic-Tac-Toe</h1>
+  <div class="board" id="board">
+    <div class="cell" onclick="makeMove(this)"></div>
+    <div class="cell" onclick="makeMove(this)"></div>
+    <div class="cell" onclick="makeMove(this)"></div>
+    <div class="cell" onclick="makeMove(this)"></div>
+    <div class="cell" onclick="makeMove(this)"></div>
+    <div class="cell" onclick="makeMove(this)"></div>
+    <div class="cell" onclick="makeMove(this)"></div>
+    <div class="cell" onclick="makeMove(this)"></div>
+    <div class="cell" onclick="makeMove(this)"></div>
+  </div>
+  <p class="message" id="message">Player X's turn</p>
+  <button class="play-again" onclick="resetGame()">Play Again</button>
+
+  <script src="index.js"> </script>
+</body>
+</html>
