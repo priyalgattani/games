@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #208c8c;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Pixelify Sans', cursive;
+  font-size: 4rem;
+  margin-top: 0;
+  padding: 10px, 0;
+}
+
+header {
+  background-color: #273b40;
+  color: #cae9ea;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+}
+
+h2 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+footer {
+  text-align: center;
+  background-color: #273b40;
+  color: #fff;
+  padding: 3px 0;
+  margin-top: 20px;
+}
+
+.btn {
+  display: inline-block;
+  height: 200px;
+  width: 230px;
+  border: 8px solid black;
+  border-radius: 10%;
+  text-align: center;
+  margin: 5px;
+}
+
+.gameimg {
+  width: 230px;
+  border-radius: 6%;
+}
